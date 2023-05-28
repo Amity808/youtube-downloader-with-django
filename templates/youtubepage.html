@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Download Page</title>
+</head>
+<body>
+    <h1>Youtube Video Downloader</h1>
+    <p>When it started loading wait till it load finish, then it will download</p>
+    <form method="post">
+        {% csrf_token %}
+        <label for="link">Enter Your Youtube Url</label>
+        <input type="text" name="link" id="link">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

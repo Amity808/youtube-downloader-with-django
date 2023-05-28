@@ -1,0 +1,16 @@
+To get start with This project we need to install django-admin startproject thenameofyourproject
+
+create a Django app with django :  python manage.py startapp thenameofyourapp
+
+Configure your settings.py
+
+another library we need to install is pytube  pip install pytube
+
+create your view and template
+Run Your migrate
+
+
+
+For The Documentation Read Through
+https://pytube.io/en/latest/
+
